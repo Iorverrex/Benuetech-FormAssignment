@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+::placeholder{
+    font-style: normal;
+    font-size: 14px;
+}
+/*Sign up page*/
+.sign_up{
+    text-align: center;
+}
+.form_field{
+    width: 80%;
+    background-color: rgb(193, 234, 229);
+    border: none;
+    border-radius: 20px;
+    margin-top: 2px;
+    padding-top: -8em;
+    margin: auto;
+    
+}
+.form_controy{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: url(image/img_forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+#fnamee, #lastname,#confirm_password,   
+#email_addrass, #password,  
+#gernder_sex, #address, #middle_name,#phone_number,#dob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: .5em ;
+}
+
+
+ #my_password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px ;
+    width: 100%; 
+
+}
+
+#nationality{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-content: center;
+    margin-top: .5em;
+
+}
+#gender_dob{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 4px;
+    width: 100%;
+}
+
+#password_conf {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-content: center;
+}
+#my_nation{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin-right: -10px;
+}
+#my_state{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    
+}
+#dob{
+    width: 32%;
+    margin-right: -10px;
+}
+#dobn{
+    width: 140%;
+    margin-left: -5px;
+    
+}
+#my_gender{
+    width: 220%;  
+}
+#gernder_sex{
+    margin-left: 82px;
+    width: 22%;
+    
+
+}
+/*first_name*/
+#first_name, #middle, #last_name, #number,
+#email, #my_passwords, #my_password, #dobn, #my_gender, #mystate, #addresss{
+    border-radius: 5px;
+    padding: 3px;
+       
+}
+#mycountry{
+    border-radius: 5px;
+    padding: 3px;
+}
+#account{
+    text-align: right;
+   font-size: 16px;
+}
+span{
+    color: red;
+}
+#myspen{
+    color: black;
+}
+/*btn_controy*/
+.btn_controy{
+    text-align: right;
+    margin-top: 10px;
+    
+}
+#click_btn{
+    font-size: 18px;
+}
+#btn{
+    width: 100%;
+    background-color: rgb(43, 0, 255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+
+}
+#btn:hover{
+    background-color: rgb(26, 255, 0);
+    box-shadow: 1px 2px rgb(43, 0, 255);
+}
+
+
+/*login*/
+.div_login{
+    background-color: brown;
+}
+#my_form{
+    width: 40%;
+    font-size: 20px;
+    margin: auto;
+}
+#form_field{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 4px;
+    background-color: rgb(180, 226, 190);
+}
+#my_login{
+    margin: auto;
+}
+#login_username, #login_email, #login_password{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5em; 
+}
+#pass_word, #enter_email, #user_name{
+    padding: 4px;
+    border-radius: 5px;
+}
+#btn_login{
+    text-align: right;
+}
+#my_btn_login{
+    padding: 5px;
+    width: 20%;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#my_btn_login:hover{
+    background-color: gold;
+    box-shadow: 1px 2px blue;
+}
+#my_btn_login:active{
+    background-color: red;
+}
+
+#forget_password{
+    margin-top: .5em;
+}
+h4{
+    text-align: right;
+}
+
+/*media qurise for signup*/
+@media only screen and (max-width: 700px){
+        #password_conf, #nationality{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        #gender_dob{
+            display: flex;
+            flex-direction: column;
+           
+
+        }
+        #confirm_password{
+            margin-top: -5px;
+            margin-right: 10px;
+        }
+        #my_password{
+            margin-top: 0px;
+        }
+        #dob{
+            width: 70%;
+            margin: 0%;
+            margin-top: 1em;
+        }
+        #gernder_sex{
+            align-items: start;
+            margin: -1%;
+            width: 45.5%;
+            margin-top: 1em;
+        }
+        #nationality{
+            width: 216%;
+        }
+        #my_nation{
+            margin-top: .5em;
+        }
+        #my_state{
+            margin-top: -15px;
+        }
+        
+      
+}
+@media only screen and (min-width: 600px){
+    #my_btn_login{
+            width: 80px;
+            padding: 3px;
+            margin-top: 3px;
+        }
+       
+}

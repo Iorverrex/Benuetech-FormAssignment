@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Signup</title>
+</head>
+<body >
+    <div class="form_controy">
+        <form action="registraction" method="post" id="my_form_logup">
+            <fieldset class="form_field">
+
+                <!--signin-->
+                <div class="sign_up">
+                    <h1>Sign Up</h1>
+                </div>
+
+                <!--Fname-->
+                <div id="fnamee">
+                    <label for="form" id="fname">First Name<span>*</span></label>
+                    <input type="text" name="FirstName" id="first_name"
+                        placeholder="Enter first name" required>
+                </div>
+               
+                 <!--middle name-->
+                <div id="middle_name">
+                     <label for="form" id="mname">Middle Name</label>
+                     <input type="text" name="middle" id="middle" 
+                        placeholder="Enter middle name">
+                </div>
+
+                <!--lastname-->
+                <div id="lastname">
+                    <label for="form" id="lname">Last Name<span>*</span></label>
+                    <input type="text" name="LastName" id="last_name"
+                        placeholder="Enter Last name" target="_blank" required>
+                </div>
+
+                <!--phone_number-->
+                <div id="phone_number">
+                    <label for="form" id="phone_numb">Phone Number<span>*</span></label>
+                    <input pattern="\d*" type="tel" name="phone number" id="number"
+                       placeholder="Enter phone number" title="number only"
+                       required>
+                </div>
+
+                <!--email address-->
+                <div id="email_addrass">
+                    <label for="form" id="email_address">Email Address<span>*</span></label>
+                    <input type="email" name="email" id="email" 
+                       placeholder="Valid email" required>
+                </div>
+
+            <div id="password_conf">
+                <!--password-->
+                <div id="password">
+                    <label for="form" id="con_email">Password<span>*</span></label>
+                   <input type="password" name="password" id="my_passwords" 
+                       placeholder="Enter password" required>
+                </div>
+
+                <!--confirm password-->
+                <div id="confirm_password">
+                    <label for="form" id="con_email">Confirmed password<span>*</span></label>
+                   <input type="password" name="password" id="my_password"
+                        placeholder="Confirm pasword " required>
+                </div>
+            </div>
+
+                <!--Date of Birth-->
+                <div id="gender_dob">
+                <div id="dob">
+                    <label for="form" id="date_birth">Date Of Birth<span>*</span></label>
+                    <input type="date" name="dob" id="dobn"  required>
+                </div>
+
+                <!--sex-->
+                <div id="gernder_sex">
+                    <label for="form" id="gender">Gender<span>*</span></label>
+                    <select name="sex" id="my_gender" value="sex">
+                        <optgroup  >
+                            <option placeholder="sex" disabled>sex</option>
+                            <option value="men">men</option>
+                            <option value="female">female</option>
+                            <option value="other">others</option>
+                        </optgroup>
+                    </select>
+                </div>
+                </div>
+
+                <!--country-->
+                <div id="nationality">
+                    <div id="my_nation">
+                    <label for="form" id="country">Country<span>*</span></label>
+                    <select name="" id="mycountry">
+                        <optgroup>
+                            <option value="" disabled>Country</option>
+                            <option value="">Nigeria</option>
+                            <option value="">Ghana</option>
+                            <option value="">USA</option>
+                            <option value="">Russia</option>
+                            <option value="">Surth Africa</option>
+                            <option value="">China</option>
+                            <option value="">Togo</option>
+                            <option value="">Senegal</option>
+                            <option value="">Niger</option>
+                            <option value="">Bukinafaso</option>
+                            <option value="">Germeny</option>
+                            <option value="">Camaroon</option>
+                            <option value="">France</option>
+                            <option value="">Idia</option>
+                            <option value="">Agentina</option>
+                            <option value="">Brazil</option>
+                            <option value="">Chile</option>
+                            <option value="">North Korea</option>
+                        </optgroup>
+                    </select>
+                    </div>
+
+                     <!--state-->
+                     <div id="my_state">
+                     <label for="form" id="statee">State<span>*</span></label>
+                     <select name="" id="mystate">
+                        <optgroup>
+                            <option value="Abia" disabled>STATE</option>
+                            <option value="Abia">FCT</option>
+                            <option value="Abia">Abia</option>
+                            <option value="Adamawa">Adamawa</option>
+                            <option value="Abia">Akwa Ibom</option>
+                            <option value="Abia">Anambra</option>
+                            <option value="Abia">Bauchi</option>
+                            <option value="Abia">Bayelsa</option>
+                            <option value="Abia">Benue</option>
+                            <option value="Abia">Borno</option>
+                            <option value="Abia">Cross River</option>
+                            <option value="Abia">Delta</option>
+                            <option value="Abia">Ebonyi</option>
+                            <option value="Abia">Edo</option>
+                            <option value="Abia">Ekiti</option>
+                            <option value="Abia">Enugu</option>
+                            <option value="Abia">Gombe</option>
+                            <option value="Abia">Imo</option>
+                            <option value="Abia">Jigawa</option>
+                            <option value="Abia">Kaduna</option>
+                            <option value="Abia">Kaduna</option>
+                            <option value="Abia">Kano</option>
+                            <option value="Abia">Katsina</option>
+                            <option value="Abia">Kebbi</option>
+                            <option value="Abia">Kogi</option>
+                            <option value="Abia">Kwara</option>
+                            <option value="Abia">Lagos</option>
+                            <option value="Abia">Nassaraw</option>
+                            <option value="Abia">Niger</option>
+                            <option value="Abia">Ogun</option>
+                            <option value="Abia">Ondo</option>
+                            <option value="Abia">Osun</option>
+                            <option value="Abia">Ogun</option>
+                            <option value="Abia">Oyo</option>
+                            <option value="Abia">plateau</option>
+                            <option value="Abia">Rivers</option>
+                            <option value="Abia">Sokoto</option>
+                            <option value="Abia">Taraba</option>
+                            <option value="Abia">Yobe</option>
+                        </optgroup>
+                    </select>
+                </div>
+                </div>
+
+                <!--Address-->
+                <div id="address">
+                    <label for="form" id="addres">Address<span>*</span></label>
+                    <input type="text" name="address" id="addresss" 
+                        placeholder="Enter your address">
+                </div>
+                <div id="click_btn">
+                    <input type="checkbox" name="checkbox" id="check_box">
+                    <span id="myspen">By clicking this button you agree to our
+                        <a href="">terms</a> <kbd>&</kbd>
+                        <a href="">Conditions</a>  
+                    </span>
+                </div>
+
+                <div class="btn_controy">
+                    <button type="submit" id="btn" >Submit</button>
+                </div>
+                <h2><p id="account">Already have account? <a href="Login_form.html">Sign in</a></p></h2> 
+            </fieldset>
+        </form>
+    </div>        
+</body>
+</html>
